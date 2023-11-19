@@ -1,0 +1,78 @@
+{
+    "program": "gflag_parser",
+    "usage": "Demo of gflags.",
+    "flags": [
+        {
+            "file": "bar_flags.cpp",
+            "name": "bar_flag_bool",
+            "meaning": "Bar component's boolean flag.",
+            "default": "false",
+            "current": "false",
+            "type": "bool"
+        },
+        {
+            "file": "bar_flags.cpp",
+            "name": "bar_flag_double",
+            "meaning": "Bar component's double flag.",
+            "default": "0",
+            "current": "0",
+            "type": "double"
+        },
+        {
+            "file": "bar_flags.cpp",
+            "name": "bar_flag_int",
+            "meaning": "Bar component's integer flag.",
+            "default": "0",
+            "current": "0",
+            "type": "int32"
+        },
+        {
+            "file": "foo_flags.cpp",
+            "name": "foo_flag_bool",
+            "meaning": "Foo component's boolean flag.",
+            "default": "false",
+            "current": "false",
+            "type": "bool"
+        },
+        {
+            "file": "foo_flags.cpp",
+            "name": "foo_flag_int",
+            "meaning": "Foo component's integer flag.",
+            "default": "0",
+            "current": "0",
+            "type": "int32"
+        },
+        {
+            "file": "foo_flags.cpp",
+            "name": "foo_flag_string",
+            "meaning": "Foo component's string flag.",
+            "default": null,
+            "current": null,
+            "type": "string"
+        },
+        {
+            "file": "main_flags.cpp",
+            "name": "main_bool",
+            "meaning": "Description of the flag for main.",
+            "default": "false",
+            "current": "false",
+            "type": "bool"
+        },
+        {
+            "file": "main_flags.cpp",
+            "name": "main_int",
+            "meaning": "Description of the flag for main.",
+            "default": "0",
+            "current": "0",
+            "type": "int32"
+        },
+        {
+            "file": "main_flags.cpp",
+            "name": "main_string",
+            "meaning": "Description of the flag for main.",
+            "default": null,
+            "current": null,
+            "type": "string"
+        }
+    ]
+}
